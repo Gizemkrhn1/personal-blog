@@ -1,34 +1,47 @@
+/* Arka plan rengini değiştir */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ffe6f0; /* tatlı pembe arka plan */
+  color: #4a2c3a; /* koyu pembe-mor yazı rengi */
+  padding: 20px;
 }
 
-header {
-    background: #333;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
+/* Başlık rengi */
+header h1 {
+  font-size: 2.8rem;
+  color: #d63384; /* parlak pembe başlık */
+  margin-bottom: 10px;
 }
 
+/* Linkler */
 nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+  color: #ff4d94; /* pembe linkler */
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600;
 }
 
-main {
-    padding: 20px;
-    background: white;
-    max-width: 800px;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav a:hover {
+  text-decoration: underline;
+  color: #e60073; /* daha koyu pembe hover */
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: white;
+/* Yazı kartları */
+.post-card {
+  background-color: #fff0f5; /* çok açık pembe */
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.5);
 }
+
+/* Kart başlık linki */
+.post-card h2 a {
+  color: #c2185b; /* fuşya tonları */
+}
+
+.post-card h2 a:hover {
+  color: #ff4081;
+}
+
